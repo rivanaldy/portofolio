@@ -297,7 +297,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
 <script>
   gsap.registerPlugin(TextPlugin);
-  gsap.t0('.lead',{duration:2, delay:1.5, text:"Freshgraduate"})
+  gsap.to('.lead',{duration:2, delay:1.5, text:"Freshgraduate"})
   gsap.from('.navbar',{duration:1.5, y:'-100%', opacity:0,ease:"bounce"})
   gsap.from('.display-4',{duration:1.5, x:-50, opacity:0, delay:0.5,ease:"back"})
  gsap.from('.jumbotron img',{duration:1, rotateY: 360, opacity:0, ease:"bounce"})
